@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .from-epilot-blue {
+    --tw-gradient-from: #0066FF var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(0 102 255 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-epilot-cyan {
+    --tw-gradient-to: #00D4FF var(--tw-gradient-to-position);
+  }
+
+  .to-epilot-purple {
+    --tw-gradient-to: #7B61FF var(--tw-gradient-to-position);
+  }
+
+  .from-emerald-50 {
+    --tw-gradient-from: #ecfdf5 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(236 253 245 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-emerald-100 {
+    --tw-gradient-to: #d1fae5 var(--tw-gradient-to-position);
+  }
+
+  .from-emerald-200 {
+    --tw-gradient-from: #a7f3d0 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(167 243 208 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-emerald-300 {
+    --tw-gradient-to: #6ee7b7 var(--tw-gradient-to-position);
+  }
+
+  .from-red-50 {
+    --tw-gradient-from: #fef2f2 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(254 242 242 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-red-100 {
+    --tw-gradient-to: #fee2e2 var(--tw-gradient-to-position);
+  }
+
+  .from-red-200 {
+    --tw-gradient-from: #fecaca var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(254 202 202 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .to-red-300 {
+    --tw-gradient-to: #fca5a5 var(--tw-gradient-to-position);
+  }
+
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
