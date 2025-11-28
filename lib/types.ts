@@ -1,11 +1,9 @@
-// Player types
 export interface Player {
   id: string;
   score: number;
   createdAt: number;
 }
 
-// Guess types
 export interface Guess {
   playerId: string;
   direction: 'up' | 'down';
@@ -17,13 +15,11 @@ export interface Guess {
   resolvedAt?: number;
 }
 
-// Price types
 export interface PriceData {
   price: number;
   timestamp: number;
 }
 
-// Game state types
 export interface LastResult {
   won: boolean;
   fromPrice: number;
